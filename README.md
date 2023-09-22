@@ -27,10 +27,17 @@ User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya
 4. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
    
 ### Jawaban
-![1-1](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/ebdaeb9a-4ae9-4d8b-94b1-179072e24baa)
-![1-2](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/9d2ea1ce-4f39-43b0-8417-66bc03da20f6)
-![1-3](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a16a3080-b146-4d3b-b492-9f2cc321a981)
-![1-4](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a10d38ad-e9b3-4308-9686-8c8eeef3bba9)
+Mencari pada protocol FTP yang memiliki perintah `STOR`, karena `STOR` merupakan perintah untuk melakukan upload file ke FTP server
+<img width="972" alt="Screenshot 2023-09-22 at 08 21 39" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/46450e69-c3b1-4308-bed8-bcb853b28f96">
+
+Melihat ke bagian detail Transmission Control Protocol, dan didapatkan sequence number (raw) dan acknowledge number (raw) untuk pertanyaan 1 dan 2
+<img width="739" alt="Screenshot 2023-09-22 at 08 24 07" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/066c33d4-2239-4bcc-930d-98cc8c90a723">
+
+Kemudian menerapkan display filter `ftp contains "c75-GrabThePhisher.zip"`
+<img width="1250" alt="Screenshot 2023-09-22 at 08 24 35" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/2120b999-73ce-443a-8a7b-7ad7a0519ea4">
+
+Melihat ke bagian detail Transmission Control Protocol lagi, dan didapatkan sequence number (raw) dan acknowledge number (raw) untuk pertanyaan 3 dan 4
+<img width="740" alt="Screenshot 2023-09-22 at 08 24 46" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/d1c7bd0e-c1f3-4376-b08b-119eb169dbaf"><br>
 
 ## Soal 2
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
@@ -54,8 +61,10 @@ Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal be
 2. Protokol layer transport apa yang digunakan?
 
 ### Jawaban
-![3-1]("https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/04a9e691-701d-4099-b21c-8d94de86c657)
-![3-2](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/3c9aaa90-6399-4e89-becd-520267ac3137)
+Menerapkan display filter `(ip.src == 239.255.255.250 and udp.port == 3702) or (ip.dst == 239.255.255.250 and udp.port == 3702)`
+<img width="722" alt="Screenshot 2023-09-22 at 08 31 24" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/1ea37527-e37a-463f-b27c-d4e866b0831d"><br>
+Sehingga didaptkan capture paket berikut, dimana jumlahnya yang tercapture ada **21** paket dengan protokol layer yang digunakan merupakan **User Datagram Protocol(UDP)**
+<img width="1009" alt="Screenshot 2023-09-22 at 08 32 25" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/d54a4738-445b-4e9a-90d4-c048a5e8cf02">
 
 ## Soal 4
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
@@ -80,15 +89,32 @@ Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk men
 3. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 
 ### Jawaban
-![5-1](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/04cbdebf-84a0-45f4-814a-0a2423c0be68)
-![5-2](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a3fbd4ef-3bd8-4144-a5c5-e1d9a323bcb6)
-1[5-3](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/9cd2404f-d94c-4a36-b3b1-9464dba8038a)
-![5-4](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a190b160-865e-4ab1-929d-550f83125460)
-![5-5](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a768aa61-ccf5-4ac0-9eb5-b495a085bfca)
-![5-6](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/869baabd-6204-404c-af9f-304f83e23cf3)
-![5-7](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/f480c078-23c9-4010-ae9d-163b5673ec8c)
-![5-8](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/b8d39262-5d34-454a-941e-a763f9f0219d)
-![5-9](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/0adf62e0-a70a-4d29-88df-7ed4121c0679)
+Menerapkan display filter `smtp` 
+<img width="977" alt="1" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/ecf500a2-5574-4f97-96d3-cfae61dfbbaa">
+
+Kemudian follow TCP Stream pada paket tersebut
+<img width="1370" alt="2" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/121f5f28-d009-4fe3-8e67-13c8abf1329e">
+
+Sehingga didapatkan sebagai berikut:
+<img width="595" alt="3" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/1e91b12f-8f12-4e1b-84a9-205e94c36117">
+
+Berdasarkan penemuan tadi, kita diminta untuk men-decode password tersebut dengan Base64. Dalam hal ini gunakan website berikut https://www.rapidtables.com/web/tools/base64-decode.html dan didapatkan hasil decoding sebagai berikut:<br>
+<img width="405" alt="4" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/e699df4c-b102-4bdd-8fa2-0b5d0e23be2c">
+
+Lalu gunakan password yang telah didapatkan tadi untuk mengekstrak zip
+<img width="394" alt="5" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/31787485-53c4-4a1e-bc8c-cdc8b7d33eb5">
+
+Maka akan didapatkan file berikut:<br>
+<img width="457" alt="6" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/8dead238-c516-4c2c-8e91-bce6becd7d8a">
+
+Setelah connect ke instance yang tertera tadi, maka jawaban dari pertanyaan untuk poin 1 adalah **60 paket**
+<img width="997" alt="7" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/9881c58e-3881-40a1-8601-af56b3e50448">
+
+Untuk pertanyaan poin 2, port yang digunakan untuk service SMTP adalah **25**
+<img width="707" alt="8" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/164f2020-57ee-40e5-8e53-b607e2942821">
+
+Pertanyaan poin 3, dari semua alamat IP yang tercapture, IP yang merupakan IP publik adalah **74.53.140.153**
+<img width="988" alt="9" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/0d99b970-6f0f-49ec-b8d6-db2355b63f83">
 
 ## Soal 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan `server SOURCE ADDRESS 7812 is invalid`. ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
@@ -127,7 +153,8 @@ Screenshot flag pada netcat
 Berapa jumlah packet yang menuju IP `184.87.193.88`?
 
 ### Jawaban
-![7](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/8b685ef9-b830-4d39-8713-fb81aa2c184b)
+Menerapkan display filter `ip.src == 184.87.193.88`, sehingga didapatkan **6 paket**
+<img width="1377" alt="Screenshot 2023-09-22 at 08 56 50" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/8b685ef9-b830-4d39-8713-fb81aa2c184b">
 
 ## Soal 8
 Berikan kueri filter sehingga Wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
@@ -147,7 +174,8 @@ Screenshot flag pada netcat
 Berikan kueri filter sehingga Wireshark hanya mengambil paket yang berasal dari alamat `10.51.40.1` tetapi tidak menuju ke alamat `10.39.55.34`!
 
 ### Jawaban
-![9](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/70ed84a4-8f1c-456f-975e-f03404e97210)
+Menerapkan query diaplay filter `ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`
+<img width="563" alt="Screenshot 2023-09-22 at 08 59 22" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/70ed84a4-8f1c-456f-975e-f03404e97210">
 
 ## Soal 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
