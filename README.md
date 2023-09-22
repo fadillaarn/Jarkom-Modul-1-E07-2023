@@ -39,7 +39,7 @@ Kemudian menerapkan display filter `ftp contains "c75-GrabThePhisher.zip"`
 Melihat ke bagian detail Transmission Control Protocol lagi, dan didapatkan sequence number (raw) dan acknowledge number (raw) untuk pertanyaan 3 dan 4
 <img width="740" alt="Screenshot 2023-09-22 at 08 24 46" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/d1c7bd0e-c1f3-4376-b08b-119eb169dbaf">
 
-Screenshot flag pada netcat
+Screenshot flag pada netcat<br>
 <img width="584" alt="Screenshot 2023-09-22 at 08 27 36" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/69d7c7a8-1496-4490-9a55-16e80cd0defc">
 
 ## Soal 2
@@ -70,7 +70,7 @@ Menerapkan display filter `(ip.src == 239.255.255.250 and udp.port == 3702) or (
 Sehingga didaptkan capture paket berikut, dimana jumlahnya yang tercapture ada **21** paket dengan protokol layer yang digunakan merupakan **User Datagram Protocol(UDP)**
 <img width="1009" alt="Screenshot 2023-09-22 at 08 32 25" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/d54a4738-445b-4e9a-90d4-c048a5e8cf02">
 
-Screenshot flag pada netcat
+Screenshot flag pada netcat<br>
 <img width="573" alt="Screenshot 2023-09-22 at 08 33 55" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/99733f16-8415-474d-979f-1d0b2e5e6e3d">
 
 ## Soal 4
@@ -123,7 +123,7 @@ Untuk pertanyaan poin 2, port yang digunakan untuk service SMTP adalah **25**
 Pertanyaan poin 3, dari semua alamat IP yang tercapture, IP yang merupakan IP publik adalah **74.53.140.153**
 <img width="988" alt="9" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/0d99b970-6f0f-49ec-b8d6-db2355b63f83">
 
-Screenshot flag pada netcat
+Screenshot flag pada netcat<br>
 <img width="563" alt="Screenshot 2023-09-22 at 08 51 57" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/7a7d86e3-25cd-4754-831f-a3a56136cf5e">
 
 ## Soal 6
@@ -166,7 +166,7 @@ Berapa jumlah packet yang menuju IP `184.87.193.88`?
 Menerapkan display filter `ip.src == 184.87.193.88`, sehingga didapatkan **6 paket**
 <img width="1377" alt="Screenshot 2023-09-22 at 08 56 50" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/8b685ef9-b830-4d39-8713-fb81aa2c184b">
 
-Screenshot flag pada netcat
+Screenshot flag pada netcat<br>
 <img width="563" alt="Screenshot 2023-09-22 at 08 59 22" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/6e05ad13-6720-4e3a-a756-67bd06b6cee5">
 
 ## Soal 8
