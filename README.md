@@ -104,6 +104,10 @@ Kita decode ciphertext di atas dan mendapatkan hasil akhir plain text sebagai be
 JDRNJA
 ```
 
+Screenshot flag pada netcat  
+<img width="75%" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/107914177/359ee1ef-1dea-4324-a7f5-25eca82b96c7">
+
+
 ## Soal 7
 Berapa jumlah packet yang menuju IP `184.87.193.88`?
 
@@ -119,6 +123,9 @@ tcp.dstport == 80 || udp.dstport == 80
 ```
 Berikut adalah hasil capture paket dari kueri filter yang telah digunakan.  
 <img src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/107914177/5dd97260-2c01-4a81-8592-4683d3b545c1">
+
+Screenshot flag pada netcat  
+<img width="75%" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/107914177/8d5ba204-2215-4512-8e8c-f6e5784420ea">
 
 ## Soal 9
 Berikan kueri filter sehingga Wireshark hanya mengambil paket yang berasal dari alamat `10.51.40.1` tetapi tidak menuju ke alamat `10.39.55.34`!
@@ -145,3 +152,6 @@ Format yang diminta pada soal adalah `[username]:[password]`, sehingga jawaban a
 ```
 dhafin:kesayangannyak0k0
 ```
+
+Screenshot flag pada netcat  
+<img width="75%" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/107914177/33626fef-3a74-4814-a85b-b4277833dcde">
