@@ -1,6 +1,6 @@
 # Jarkom-Modul-1-E07-2023
 
-Laporan resmi praktikum Jaringan Komputer modul 1 kelompok E11
+Laporan resmi praktikum Jaringan Komputer modul 1 kelompok E07
 | Nama                     | NRP        |
 |--------------------------|------------|
 | Akmal Sulthon Fathulloh  | 5025211047 |
