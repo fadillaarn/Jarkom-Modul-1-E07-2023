@@ -27,6 +27,10 @@ User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya
 4. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
    
 ### Jawaban
+![1-1](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/ebdaeb9a-4ae9-4d8b-94b1-179072e24baa)
+![1-2](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/9d2ea1ce-4f39-43b0-8417-66bc03da20f6)
+![1-3](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a16a3080-b146-4d3b-b492-9f2cc321a981)
+![1-4](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a10d38ad-e9b3-4308-9686-8c8eeef3bba9)
 
 ## Soal 2
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
@@ -50,6 +54,8 @@ Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal be
 2. Protokol layer transport apa yang digunakan?
 
 ### Jawaban
+![3-1]("https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/04a9e691-701d-4099-b21c-8d94de86c657)
+![3-2](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/3c9aaa90-6399-4e89-becd-520267ac3137)
 
 ## Soal 4
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
@@ -74,6 +80,15 @@ Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk men
 3. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 
 ### Jawaban
+![5-1](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/04cbdebf-84a0-45f4-814a-0a2423c0be68)
+![5-2](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a3fbd4ef-3bd8-4144-a5c5-e1d9a323bcb6)
+1[5-3](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/9cd2404f-d94c-4a36-b3b1-9464dba8038a)
+![5-4](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a190b160-865e-4ab1-929d-550f83125460)
+![5-5](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/a768aa61-ccf5-4ac0-9eb5-b495a085bfca)
+![5-6](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/869baabd-6204-404c-af9f-304f83e23cf3)
+![5-7](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/f480c078-23c9-4010-ae9d-163b5673ec8c)
+![5-8](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/b8d39262-5d34-454a-941e-a763f9f0219d)
+![5-9](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/0adf62e0-a70a-4d29-88df-7ed4121c0679)
 
 ## Soal 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan `server SOURCE ADDRESS 7812 is invalid`. ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
@@ -112,6 +127,7 @@ Screenshot flag pada netcat
 Berapa jumlah packet yang menuju IP `184.87.193.88`?
 
 ### Jawaban
+![7](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/8b685ef9-b830-4d39-8713-fb81aa2c184b)
 
 ## Soal 8
 Berikan kueri filter sehingga Wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
@@ -131,6 +147,7 @@ Screenshot flag pada netcat
 Berikan kueri filter sehingga Wireshark hanya mengambil paket yang berasal dari alamat `10.51.40.1` tetapi tidak menuju ke alamat `10.39.55.34`!
 
 ### Jawaban
+![9](https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/91003946/70ed84a4-8f1c-456f-975e-f03404e97210)
 
 ## Soal 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
