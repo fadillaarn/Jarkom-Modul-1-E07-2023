@@ -215,3 +215,6 @@ dhafin:kesayangannyak0k0
 
 Screenshot flag pada netcat  
 <img width="75%" src="https://github.com/fadillaarn/Jarkom-Modul-1-E07-2023/assets/107914177/33626fef-3a74-4814-a85b-b4277833dcde">
+
+### Kendala
+Masalah jaringan yang lemot akibat penggunaan VPN menjadi hambatan saat ingin mengunduh berkas-berkas yang diperlukan dalam rangka menyelesaikan tugas.
